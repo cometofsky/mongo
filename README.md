@@ -4,9 +4,7 @@
 
 
 **/Commands/**
-#####Let's assume I have a database named "book"
-#####and that database holds a collection named 
-#####"page"
+#####Let's assume I have a database named "book" and that database holds a collection named "page"
 
 ######to select a database
 use book;
@@ -58,3 +56,8 @@ db.page.insertMany(
   }
 }]);
 
+######find all documents in a collection
+db.page.find({});
+
+######find specific document by a value
+db.page.find({name: "Da Vinci Code"});
