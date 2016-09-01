@@ -1,17 +1,17 @@
 # mongo
-Learning MongoDB with NodeJS
+###Learning MongoDB with NodeJS
 
 
 
 **/Commands/**
-#Let's assume I have a database named "book"
-#and that database holds a collection named 
-#"page"
+#####Let's assume I have a database named "book"
+#####and that database holds a collection named 
+#####"page"
 
-#to select a database
+######to select a database
 use book;
 
-#insert single document
+######insert single document
 db.page.insert({
   "name": "Da Vinci Code",
   "year":1990,
@@ -27,7 +27,7 @@ db.page.insert({
   }
 });
 
-#insert multiple document
+######insert multiple document
 db.page.insertMany(
 [{
   "name": "Da Vinci Code",
